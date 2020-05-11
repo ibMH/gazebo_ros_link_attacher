@@ -40,7 +40,8 @@ namespace gazebo
 
         /// \brief Attach with a revolute joint
         bool attach(std::string model1, std::string link1,
-                    std::string model2, std::string link2);
+                    std::string model2, std::string link2,
+                    std::string type);
 
         /// \brief Detach
         bool detach(std::string model1, std::string link1,
